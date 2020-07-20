@@ -6,6 +6,8 @@ The front-end is built using React, Redux is used for state management and Node 
 
 React app created with [Create React App](https://github.com/facebookincubator/create-react-app)
 
+![Architecture](architecture.jpeg)
+
 ## AWS API Gateway 
 ​We created a REST API web application that we used to show the data on the front end of the application. In this API gateway will pass the request to the lambda function and return the user the object returned by the lambda function.
 
